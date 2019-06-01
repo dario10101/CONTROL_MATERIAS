@@ -1,0 +1,22 @@
+[
+    {"codigo":"1", "nombre":"Calculo 1", "semestre":1, "creditos":2, "cursada":false}, 
+    {"codigo":"2", "nombre":"Fish 1", "semestre":1, "creditos":1, "cursada":false},
+    {"codigo":"3", "nombre":"Mecanica", "semestre":2, "creditos":3, "cursada":false},
+    {"codigo":"4", "nombre":"Calculo 2", "semestre":2, "creditos":4, "cursada":false},
+    {"codigo":"5", "nombre":"Calculo 3", "semestre":3, "creditos":3, "cursada":false},
+    {"codigo":"6", "nombre":"Electromagnetismo", "semestre":3, "creditos":3, "cursada":false},
+    {"codigo":"7", "nombre":"Ecuaciones diferenciales", "semestre":4, "creditos":3, "cursada":false},
+    {"codigo":"8", "nombre":"Ondas", "semestre":4, "creditos":2, "cursada":false},
+    {"codigo":"9", "nombre":"Analisis numerico", "semestre":5, "creditos":3, "cursada":false},
+    {"codigo":"10", "nombre":"Arquitectura computacional", "semestre":5, "creditos":2, "cursada":false},
+    {"codigo":"11", "nombre":"Teoria de la computacion", "semestre":5, "creditos":3, "cursada":false},
+    {"codigo":"12", "nombre":"Bases de datos 2", "semestre":5, "creditos":2, "cursada":false},
+    {"codigo":"13", "nombre":"Estadistica y Probabilidad", "semestre":6, "creditos":3, "cursada":false},
+    {"codigo":"14", "nombre":"Estructura de Lenguajes", "semestre":6, "creditos":4, "cursada":false},
+    {"codigo":"15", "nombre":"Sistemas operativos", "semestre":6, "creditos":3, "cursada":false},
+    {"codigo":"16", "nombre":"Ingenieria del Software 3", "semestre":7, "creditos":3, "cursada":false},
+    {"codigo":"17", "nombre":"Inteligencia artificial", "semestre":7, "creditos":5, "cursada":false},
+    {"codigo":"18", "nombre":"Sistemas distribuidos", "semestre":7, "creditos":2, "cursada":false},
+    {"codigo":"19", "nombre":"Calidad del software", "semestre":8, "creditos":3, "cursada":false},
+    {"codigo":"20", "nombre":"Redes", "semestre":8, "creditos":2, "cursada":false}   
+] 
