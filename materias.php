@@ -7,25 +7,33 @@
 ?>
 
 
-<html>
+
+<html lang="es">
 <head>
-	<title>Materias</title>
-	<meta charset="utf-8" />
-	<script
-      src="https://code.jquery.com/jquery-3.4.1.js"
-      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-      crossorigin="anonymous">      	
-    </script>  
-    <script src="appMaterias.js"></script>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="diseño2.css">
+  <script src="appMaterias.js"></script>
+
 </head>
 <body onload="cargar_materias(<?php echo $codigo_est; ?>);">
-
-	<h1>Pagina de las materias</h1>
-	<input id = "mat" type="text" name="materia">
-	<button onclick="modificar_estado_materia(<?php echo $codigo_est; ?>);">
-		digite codigo de la materia a modificar
-	</button>
-	<h1>NOTA: Abrir la consola del navegador para ver las respuestas del servidor</h1>
-
+  <div class="dropdown">
+  <span>Manual de Usuario</span>
+    <div class="dropdown-content">
+    <p>Hola ingeniero! :) estas son todas las materias de tu carrera!! solo tienes que darle CLICK a las materias aprobadas!!</p>
+    </div>
+  </div>
+  <h1 class= "titulo" >INGENIERIA DE SISTEMAS</h1>
+  <div id = "contenido">	  
+	  
+  </div>
+  <script src="appMaterias.js"></script>
 </body>
 </html>

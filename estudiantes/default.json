@@ -18,5 +18,10 @@
     {"codigo":"17", "nombre":"Inteligencia artificial", "semestre":7, "creditos":5, "cursada":false},
     {"codigo":"18", "nombre":"Sistemas distribuidos", "semestre":7, "creditos":2, "cursada":false},
     {"codigo":"19", "nombre":"Calidad del software", "semestre":8, "creditos":3, "cursada":false},
-    {"codigo":"20", "nombre":"Redes", "semestre":8, "creditos":2, "cursada":false}   
+    {"codigo":"20", "nombre":"Redes", "semestre":8, "creditos":2, "cursada":false}, 
+    {"codigo":"21", "nombre":"Gestion empresarial", "semestre":9, "creditos":3, "cursada":false}, 
+    {"codigo":"22", "nombre":"Legislacion laboral", "semestre":9, "creditos":3, "cursada":false}, 
+    {"codigo":"23", "nombre":"Etica", "semestre":10, "creditos":1, "cursada":false}, 
+    {"codigo":"24", "nombre":"Trabajo de grado", "semestre":10, "creditos":14, "cursada":false} 
+      
 ] 
