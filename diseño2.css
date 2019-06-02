@@ -73,3 +73,32 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+@media  screen and (max-width: 600px)
+{
+	body {
+	  background: #007bff;
+	  background: linear-gradient(to right, #0062E6, #33AEFF);
+	  width : 98%;
+	  margin-left : auto;
+	  margin-right : auto;
+	  text-align: center;
+	  padding : 2%;
+	}
+
+    .semestre  {
+    	
+	  outline-style: outset;
+	  background-color: white;
+	  margin: 1%;
+	  text-align: center;
+	  line-height: 70px;
+	  font-size: 20px;
+	  padding : 50px;
+	  display: table;
+	
+	  margin: auto;
+	  width: 95%;
+	  border: 2px solid blue;
+	  padding: 5px;
+	}
+}

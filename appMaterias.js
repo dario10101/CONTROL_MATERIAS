@@ -12,10 +12,11 @@ function modificar_estado_materia(codigo_est, codigo_mat){
     	
     	if(respuesta == 0){
     		console.log('No se pudo realizar el cambio');
-        return 0;
+        	return 0;
     	}else if (respuesta == 1){
     		console.log('cambio realizado con exito');
-        return 1;
+    		new Audio("sounds/exito.mpeg").play();
+        	return 1;
     	}
       
     }
